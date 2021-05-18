@@ -1,0 +1,262 @@
+    <nav class="navbar navbar-expand-lg d-flex flex-column" v-else>
+      <div class="container nav-container nav-container bgcolor2">
+        <img
+          src="../../assets/img/airport.jpg"
+          alt="img"
+          class="logo-scrolled navbar-brand"
+        />
+        <div class="nav-right-part nav-right-part-mobile  ">
+          <ul class="nav-right-part-list-scroll">
+            <li class="nav-right-part-list-scroll-item" @click="search">
+              <font-awesome-icon class="icon-scroll" icon="search" />
+            </li>
+          </ul>
+        </div>
+        <input
+          type="checkbox"
+          name="togglerIcon"
+          id="togglerIcon"
+          class="container-checkbox"
+          v-show="false"
+          v-model="checked"
+        />
+        <label
+          class="container-toggler-scroll"
+          type="button"
+          data-toggle="collapse"
+          data-target="#nav-collapse"
+          aria-controls="nav-collapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          for="togglerIcon"
+          @click="toggle"
+        >
+          <span class="icon"></span>
+        </label>
+        <ul class="menu-desktop text-center">
+          <li class="menu-item-scroll">
+            <a href="#" class=" menu-item-scroll-title">Vols</a>
+            <ul class="sub-menu-scroll">
+              <li class="sub-menu-scroll-item">
+                <a class="sub-menu-scroll-item-title" href="index.html"
+                  >Covid-19: Informations</a
+                >
+              </li>
+              <li class="sub-menu-scroll-item">
+                <a class="sub-menu-scroll-item-title" href="index-2.html"
+                  >Départs</a
+                >
+              </li>
+              <li class="sub-menu-scroll-item">
+                <a class="sub-menu-scroll-item-title" href="index-3.html"
+                  >Arrivées</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item-scroll">
+            <a href="#" class="menu-item-scroll-title">Votre voyage</a>
+            <ul class="sub-menu-scroll">
+              <li class="sub-menu-scroll-item">
+                <a class="sub-menu-scroll-item-title" href="property.html"
+                  >Documents</a
+                >
+              </li>
+              <li class="sub-menu-scroll-item">
+                <a class="sub-menu-scroll-item-title" href="property-grid.html"
+                  >Bagages</a
+                >
+              </li>
+              <li class="sub-menu-scroll-item">
+                <a
+                  class="sub-menu-scroll-item-title"
+                  href="property-left-sidebar.html"
+                  >Assistance</a
+                >
+              </li>
+              <li class="sub-menu-scroll-item">
+                <a
+                  class="sub-menu-scroll-item-title"
+                  href="property-details.html"
+                  >Douanes et controles</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item-scroll">
+            <a href="#" class="menu-item-scroll-title">Services</a>
+            <ul class="sub-menu-scroll">
+              <li class="sub-menu-scroll-item">
+                <a class="sub-menu-scroll-item-title" href="about.html"
+                  >Boutiques et Duty free</a
+                >
+              </li>
+              <li class="sub-menu-scroll-item">
+                <a class="sub-menu-scroll-item-title" href="team.html"
+                  >Bagages perdus</a
+                >
+              </li>
+              <li class="sub-menu-scroll-item">
+                <a class="sub-menu-scroll-item-title" href="signin.html"
+                  >Service bages et voitures</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <!-- Right aligned nav items -->
+
+        <div class="nav-right-part nav-right-part-desktop">
+          <ul class="nav-right-part-list-scroll">
+            <li class="nav-right-part-list-scroll-item-desktop" @click="search">
+              <font-awesome-icon class="icon-scroll" icon="search" />
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="container nav-container nav-container-mobile bgcolor headSelect"
+      >
+        <ul class="navbar-nav menu-mobile-scroll text-center " id="menu-mobile">
+          <li class="menu-item-scroll menu-item-mobile-scroll">
+            <a
+              href="#"
+              class=" menu-item-scroll-title menu-item-mobile-scroll-title"
+              >Home</a
+            >
+            <ul class="sub-menu-mobile-scroll">
+              <li class="sub-menu-scroll-item">
+                <a
+                  class="sub-menu-scroll-item-title menu-item-mobile-scroll-title"
+                  href="index.html"
+                  >Home 01</a
+                >
+              </li>
+              <li class="sub-menu-scroll-item">
+                <a
+                  class="sub-menu-scroll-item-title menu-item-mobile-scroll-title"
+                  href="index-2.html"
+                  >Home 02</a
+                >
+              </li>
+              <li class="sub-menu-scroll-item">
+                <a
+                  class="sub-menu-scroll-item-title menu-item-mobile-scroll-title"
+                  href="index-3.html"
+                  >Home 03</a
+                >
+              </li>
+              <li class="sub-menu-scroll-item">
+                <a class="sub-menu-scroll-item-title " href="index-4.html"
+                  >Home 04</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item-scroll menu-item-mobile-scroll">
+            <a
+              href="#"
+              class="menu-item-scroll-title menu-item-mobile-scroll-title"
+              >Property</a
+            >
+            <ul class="sub-menu-mobile-scroll">
+              <li class="sub-menu-scroll-item">
+                <a class="sub-menu-scroll-item-title" href="property.html"
+                  >Property</a
+                >
+              </li>
+              <li class="sub-menu-scroll-item">
+                <a class="sub-menu-scroll-item-title" href="property-grid.html"
+                  >Property Grid</a
+                >
+              </li>
+              <li class="sub-menu-scroll-item">
+                <a
+                  class="sub-menu-scroll-item-title"
+                  href="property-left-sidebar.html"
+                  >Left Sidebar</a
+                >
+              </li>
+              <li class="sub-menu-scroll-item">
+                <a
+                  class="sub-menu-scroll-item-title"
+                  href="property-details.html"
+                  >Property Details</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item-scroll menu-item-mobile-scroll">
+            <a
+              href="#"
+              class="menu-item-scroll-title menu-item-mobile-scroll-title"
+              >Pages</a
+            >
+            <ul class="sub-menu-mobile-scroll">
+              <li class="sub-menu-scroll-item">
+                <a class="sub-menu-scroll-item-title" href="about.html"
+                  >About</a
+                >
+              </li>
+              <li class="sub-menu-scroll-item">
+                <a class="sub-menu-scroll-item-title" href="team.html">Team</a>
+              </li>
+              <li class="sub-menu-scroll-item">
+                <a class="sub-menu-scroll-item-title" href="signin.html"
+                  >Sign In</a
+                >
+              </li>
+              <li class="sub-menu-scroll-item">
+                <a class="sub-menu-scroll-item-title" href="signup.html"
+                  >Sign Up</a
+                >
+              </li>
+              <li class="sub-menu-scroll-item">
+                <a class="sub-menu-scroll-item-title" href="add-property.html"
+                  >Add Property</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item-scroll menu-item-mobile-scroll">
+            <a
+              href="#"
+              class="menu-item-scroll-title menu-item-mobile-scroll-title"
+              >Blog</a
+            >
+            <ul class="sub-menu-mobile-scroll">
+              <li class="sub-menu-scroll-item">
+                <a class="sub-menu-scroll-item-title" href="blog.html">Blog</a>
+              </li>
+              <li class="sub-menu-scroll-item">
+                <a class="sub-menu-scroll-item-title" href="blog-grid.html"
+                  >Blog Grid</a
+                >
+              </li>
+              <li class="sub-menu-scroll-item">
+                <a
+                  class="sub-menu-scroll-item-title"
+                  href="blog-left-sidebar.html"
+                  >Left Sidebar</a
+                >
+              </li>
+              <li class="sub-menu-scroll-item">
+                <a class="sub-menu-scroll-item-title" href="blog-details.html"
+                  >Blog Details</a
+                >
+              </li>
+              <li class="sub-menu-scroll-item">
+                <a
+                  class="sub-menu-scroll-item-title"
+                  href="blog-details-left-sidebar.html"
+                  >Details Left Sidebar</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item-scroll menu-item-mobile-scroll">
+            <a class="menu-item-scroll-title" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
