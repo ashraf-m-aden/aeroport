@@ -9,27 +9,27 @@
               <router-link to="/">Covid-19: Informations</router-link>
             </li>
             <li>
-              <router-link to="/home-two">Départs</router-link>
+              <router-link to="/">Départs</router-link>
             </li>
             <li>
-              <router-link to="/home-three">Arrivées</router-link>
+              <router-link to="/">Arrivées</router-link>
             </li>
           </ul>
         </li>
         <li class="menu-item-has-children">
-          <router-link to="/service">VOTRE VOYAGE</router-link>
+          <router-link to="/">VOTRE VOYAGE</router-link>
           <ul class="sub-menu">
             <li>
-              <router-link to="/service">Documents</router-link>
+              <router-link to="/">Documents</router-link>
             </li>
             <li>
-              <router-link to="/service-details">Bagages</router-link>
+              <router-link to="/">Bagages</router-link>
             </li>
             <li>
-              <router-link to="/service-details-right">Assistance</router-link>
+              <router-link to="/">Assistance</router-link>
             </li>
             <li>
-              <router-link to="/service-details-right"
+              <router-link to="/"
                 >Douanes et controles</router-link
               >
             </li>
@@ -39,13 +39,13 @@
           <router-link to="/service">SERVICES</router-link>
           <ul class="sub-menu">
             <li>
-              <router-link to="/service">Boutiques et Duty free</router-link>
+              <router-link to="/">Boutiques et Duty free</router-link>
             </li>
             <li>
-              <router-link to="/service-details">Bagages perdus</router-link>
+              <router-link to="/">Bagages perdus</router-link>
             </li>
             <li>
-              <router-link to="/service-details-right"
+              <router-link to="/"
                 >Service bagages et voitures</router-link
               >
             </li>
