@@ -16,5 +16,9 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../assets/sass/main.scss";
+@import "../assets/scss/style.scss";
 
+.footer-widget{
+}
 </style>

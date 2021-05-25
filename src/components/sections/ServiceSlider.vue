@@ -1,12 +1,11 @@
 <template>
   <!--====================  service grid slider area ====================-->
-  <div class="service-grid-slider-area section-space--inner--120">
-    <div class="container">
-      <div class="row">
+
+      <div class="slider">
         <div class="col-lg-12">
           <div class="section-title-area text-center">
             <h2 class="section-title section-space--bottom--50">
-              {{ data.serviceOne.sectionTitle }}<span class="title-icon"></span>
+              Profiter de Djibouti<span class="title-icon"></span>
             </h2>
           </div>
         </div>
@@ -28,8 +27,6 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
   <!--====================  End of service grid slider area  ====================-->
 </template>
 
@@ -93,3 +90,12 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+@import '../../assets/sass/main.scss';
+@import '../../assets/scss/style.scss';
+
+.slider{
+  padding: 5rem 0;
+}
+</style>

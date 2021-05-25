@@ -90,24 +90,28 @@ export default {
         {
           title: 'Le Carrefour des trois continents',
           desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.',
-          image: require('@/assets/img/aeroport/airport1.jpg')
+          image: require('@/assets/img/aeroport/airport1.jpg'),
+          addClass: 'hero-slider__content--center'
+
         },
         {
-          title: 'Build Your Dream With Castro',
+          title: 'Le Carrefour des trois continents',
           desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.',
-          image: require('@/assets/img/aeroport/airport2.jpg')
+          image: require('@/assets/img/aeroport/airport2.jpg'),
+          addClass: 'hero-slider__content--center'
         },
         {
-          title: 'Makes Your Dream With Castro',
+          title: 'Le Carrefour des trois continents',
           desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.',
-          image: require('@/assets/img/aeroport/airport3.jpg')
+          image: require('@/assets/img/aeroport/airport3.jpg'),
+          addClass: 'hero-slider__content--center'
         }
       ],
       swiperOption: {
-        speed: 1500,
+        speed: 2000,
         loop: true,
         effect: 'fade',
-        autoplay: false,
+        autoplay: true,
         spaceBetween: 30,
         navigation: {
           nextEl: '.ht-swiper-button-next',

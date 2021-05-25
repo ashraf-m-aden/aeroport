@@ -1,6 +1,6 @@
 <template>
     <!--====================  footer area ====================-->
-    <div class="footer-area dark-bg">
+    <div class="footer-area">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -53,5 +53,11 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../assets/sass/main.scss";
+@import "../assets/scss/style.scss";
 
+.footer-area{
+  background: $theme-color--default;
+  color: white;
+}
 </style>

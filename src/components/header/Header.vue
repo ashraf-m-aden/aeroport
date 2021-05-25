@@ -2,6 +2,7 @@
   <!--====================  header area ====================-->
   <div class="header-area">
     <div class="header-area__desktop header-area__desktop--default">
+
       <!--=======  header info area  =======-->
       <div class="header-info-area">
         <div class="container">
@@ -9,15 +10,42 @@
             <div class="col-lg-12">
               <div class="header-info-wrapper align-items-center">
                 <!-- logo -->
-              <router-link to="/">
-                <img
-                  src="../assets/logo.png"
-                  class="logo"
-                  alt="Aeroport International de Djibouti"
-                /></router-link>
-                <div class="name">
-                  Aeroport International de Djibouti
+                <div class="logo">
+                  <router-link to="/">
+                    <img
+                      src="assets/img/logo/logo.png"
+                      class="img-fluid"
+                      alt="Brand Logo"
+                    />
+                  </router-link>
                 </div>
+
+                <!-- header contact info -->
+                <div class="header-contact-info">
+                  <div class="header-info-single-item">
+                    <div class="header-info-single-item__icon">
+                      <i class="zmdi zmdi-smartphone-android"></i>
+                    </div>
+                    <div class="header-info-single-item__content">
+                      <h6 class="header-info-single-item__title">Phone</h6>
+                      <p class="header-info-single-item__subtitle">
+                        <a href="tel:989875596854">98 9875 5968 54</a>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="header-info-single-item">
+                    <div class="header-info-single-item__icon">
+                      <i class="zmdi zmdi-home"></i>
+                    </div>
+                    <div class="header-info-single-item__content">
+                      <h6 class="header-info-single-item__title">Address</h6>
+                      <p class="header-info-single-item__subtitle">
+                        Your address goes here
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
                 <!-- mobile menu -->
                 <div
                   class="mobile-navigation-icon"
@@ -49,19 +77,41 @@
                         <li
                           class="has-children has-children--multilevel-submenu"
                         >
-                          <router-link to="/">VOLS</router-link>
+                          <router-link to="/">HOME</router-link>
                           <ul class="submenu">
                             <li>
-                              <router-link to="/"
-                                >Covid-19: Informations</router-link
-                              >
+                              <router-link to="/">Home One</router-link>
                             </li>
                             <li>
-                              <router-link to="/home-two">Départs</router-link>
+                              <router-link to="/home-two">Home Two</router-link>
                             </li>
                             <li>
                               <router-link to="/home-three"
-                                >Arrivées</router-link
+                                >Home Three</router-link
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <router-link to="/about">ABOUT</router-link>
+                        </li>
+
+                        <li
+                          class="has-children has-children--multilevel-submenu"
+                        >
+                          <router-link to="/service">SERVICE</router-link>
+                          <ul class="submenu">
+                            <li>
+                              <router-link to="/service">Service</router-link>
+                            </li>
+                            <li>
+                              <router-link to="/service-details"
+                                >Service Details</router-link
+                              >
+                            </li>
+                            <li>
+                              <router-link to="/service-details-right"
+                                >Service Details Right Sidebar</router-link
                               >
                             </li>
                           </ul>
@@ -70,66 +120,14 @@
                         <li
                           class="has-children has-children--multilevel-submenu"
                         >
-                          <router-link to="/service">VOTRE VOYAGE</router-link>
+                          <router-link to="/project">PROJECT</router-link>
                           <ul class="submenu">
                             <li>
-                              <router-link to="/service">Documents</router-link>
+                              <router-link to="/project">Project</router-link>
                             </li>
                             <li>
-                              <router-link to="/service-details"
-                                >Bagages</router-link
-                              >
-                            </li>
-                            <li>
-                              <router-link to="/service-details-right"
-                                >Assistance</router-link
-                              >
-                            </li>
-                            <li>
-                              <router-link to="/service-details-right"
-                                >Douanes et controles</router-link
-                              >
-                            </li>
-                          </ul>
-                        </li>
-                        <li
-                          class="has-children has-children--multilevel-submenu"
-                        >
-                          <router-link to="/service">SERVICES</router-link>
-                          <ul class="submenu">
-                            <li>
-                              <router-link to="/service"
-                                >Boutiques et Duty free</router-link
-                              >
-                            </li>
-                            <li>
-                              <router-link to="/service-details"
-                                >Bagages perdus</router-link
-                              >
-                            </li>
-                            <li>
-                              <router-link to="/service-details-right"
-                                >Service bagages et voitures</router-link
-                              >
-                            </li>
-                          </ul>
-                        </li>
-                        <li
-                          class="has-children has-children--multilevel-submenu"
-                        >
-                          <router-link to="/">VOLS</router-link>
-                          <ul class="submenu">
-                            <li>
-                              <router-link to="/"
-                                >Covid-19: Informations</router-link
-                              >
-                            </li>
-                            <li>
-                              <router-link to="/home-two">Départs</router-link>
-                            </li>
-                            <li>
-                              <router-link to="/home-three"
-                                >Arrivées</router-link
+                              <router-link to="/project-details"
+                                >Project Details</router-link
                               >
                             </li>
                           </ul>
@@ -138,49 +136,34 @@
                         <li
                           class="has-children has-children--multilevel-submenu"
                         >
-                          <router-link to="/service">VOTRE VOYAGE</router-link>
+                          <router-link to="/blog-left-sidebar"
+                            >BLOG</router-link
+                          >
                           <ul class="submenu">
                             <li>
-                              <router-link to="/service">Documents</router-link>
-                            </li>
-                            <li>
-                              <router-link to="/service-details"
-                                >Bagages</router-link
+                              <router-link to="/blog-left-sidebar"
+                                >Blog Left Sidebar</router-link
                               >
                             </li>
                             <li>
-                              <router-link to="/service-details-right"
-                                >Assistance</router-link
+                              <router-link to="/blog-right-sidebar"
+                                >Blog Right Sidebar</router-link
                               >
                             </li>
                             <li>
-                              <router-link to="/service-details-right"
-                                >Douanes et controles</router-link
+                              <router-link to="/blog-details"
+                                >Blog Details</router-link
+                              >
+                            </li>
+                            <li>
+                              <router-link to="/blog-details-right-sidebar"
+                                >Blog Details Right Sidebar</router-link
                               >
                             </li>
                           </ul>
                         </li>
-                        <li
-                          class="has-children has-children--multilevel-submenu"
-                        >
-                          <router-link to="/service">SERVICES</router-link>
-                          <ul class="submenu">
-                            <li>
-                              <router-link to="/service"
-                                >Boutiques et Duty free</router-link
-                              >
-                            </li>
-                            <li>
-                              <router-link to="/service-details"
-                                >Bagages perdus</router-link
-                              >
-                            </li>
-                            <li>
-                              <router-link to="/service-details-right"
-                                >Service bagages et voitures</router-link
-                              >
-                            </li>
-                          </ul>
+                        <li>
+                          <router-link to="/contact">CONTACT</router-link>
                         </li>
                       </ul>
                     </nav>
@@ -217,10 +200,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-@import "../assets/sass/main.scss";
-@import "../assets/scss/style.scss";
-
+<style lang="scss">
 .vue-fixed-header--isFixed {
   left: 0;
   top: 0;
@@ -230,22 +210,5 @@ export default {
   box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.2);
   animation: 900ms cubic-bezier(0.2, 1, 0.22, 1) 0s normal none 1 running
     fadeInDown;
-}
-
-.logo {
-  width: 15rem;
-}
-.name {
-  font-family: quick;
-  font-size: 3rem;
-  font-weight: 800;
-  color: $theme-color--default;
-  @include respond(tablet) {
-    font-size: 1.5rem;
-  }
-}
-
-.has-children {
-  font-family: quick;
 }
 </style>

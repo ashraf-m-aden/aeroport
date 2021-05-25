@@ -1,27 +1,27 @@
 <template>
   <div>
     <HeroOne :sliderData="data.heroOne"></HeroOne>
-      <div class="row">
+    <div class="row">
+      <Notice />
+      <ServiceSlider />
 
-        <ServiceSlider />
+      <FunFact />
 
-        <FunFact />
-
-    <div class="col-12">
-      <div class="covid-banner">
-        <div class="covid-banner-text">
-          Mesures Preventives COVID 19
+      <div class="col-12">
+        <div class="covid-banner">
+          <div class="covid-banner-text">
+            Mesures Preventives COVID 19
+          </div>
         </div>
       </div>
+      <BrandCarousel />
     </div>
-        <BrandCarousel />
-
-  </div>
   </div>
 </template>
 
 <script>
 import HeroOne from '@/components/sections/HeroOne.vue'
+import Notice from '@/components/Notice.vue'
 import BrandCarousel from '@/components/BrandCarousel.vue'
 import FunFact from '@/components/FunFact.vue'
 import ServiceSlider from '@/components/sections/ServiceSlider.vue'
@@ -36,7 +36,8 @@ export default {
     HeroOne,
     FunFact,
     BrandCarousel,
-    ServiceSlider
+    ServiceSlider,
+    Notice
   }
 }
 </script>

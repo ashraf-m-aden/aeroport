@@ -10,7 +10,7 @@ import VueConciseCarousel from '@jambonn/vue-concise-carousel'
 
 import { BootstrapVue, IconsPlugin, DropdownPlugin } from 'bootstrap-vue'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faUserSecret, faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faUserSecret, faSearch, faInfo, faEye } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookF, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
@@ -31,7 +31,7 @@ Vue.component('carousel', VueConciseCarousel.Carousel)
 Vue.component('slide', VueConciseCarousel.Slide)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
-library.add(faUserSecret, faSearch, faFacebookF, faTwitter, faYoutube)
+library.add(faUserSecret, faSearch, faInfo, faEye, faFacebookF, faTwitter, faYoutube)
 
 Vue.use(BackToTop)
 Vue.use(VueAwesomeSwiper)

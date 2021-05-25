@@ -7,7 +7,7 @@
                         <div class="col-md-6 col-8">
                             <div class="logo">
                                 <router-link to="/">
-                                    <img src="../assets/logo.png" class="logo" alt="logo">
+                                    <img src="assets/img/logo/logo.png" alt="logo">
                                 </router-link>
                             </div>
                         </div>
@@ -47,7 +47,7 @@ export default {
 </script>
 
 <style lang="scss">
-    @import '../assets/scss/0-base/_variables.scss';
+    @import '../../assets/scss/0-base/_variables.scss';
 
     .offcanvas-menu {
         position: fixed;
@@ -128,37 +128,4 @@ export default {
             }
         }
     }
-</style>
-
-<style lang="scss" scoped>
-@import "../assets/sass/main.scss";
-@import "../assets/scss/style.scss";
-
-.vue-fixed-header--isFixed {
-  left: 0;
-  top: 0;
-  width: 100vw;
-  z-index: 999;
-  position: fixed;
-  box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.2);
-  animation: 900ms cubic-bezier(0.2, 1, 0.22, 1) 0s normal none 1 running
-    fadeInDown;
-}
-
-.logo {
-  width: 10rem;
-}
-.name {
-  font-family: quick;
-  font-size: 3rem;
-  font-weight: 800;
-  color: $theme-color--default;
-  @include respond(tablet) {
-    font-size: 1.5rem;
-  }
-}
-
-.has-children {
-  font-family: quick;
-}
 </style>
