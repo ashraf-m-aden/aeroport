@@ -73,11 +73,14 @@ export default {
     position: relative;
     &-img {
       width: 100%;
-      height: 70vh;
+      height: 80vh;
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      @include respond(tablet-land) {
+      @include respond(big-desk) {
+        height: 50vh;
+      }
+            @include respond(tablet-land) {
         height: 50vh;
       }
       @include respond(tablet) {
@@ -86,7 +89,6 @@ export default {
     }
     &-title {
       z-index: 1;
-      position: absolute;
       @include centerElement;
       font-size: 7rem;
       font-weight: 1000;

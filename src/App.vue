@@ -1,20 +1,29 @@
 <template>
   <div id="app">
-    <Header class="header-wrapper"></Header>
+    <Header></Header>
     <div class="container-fluid">
       <router-view />
     </div>
-    <Footer></Footer>
-  </div>
+        <Footer />
+
+        <OffCanvasMobileMenu />
+
+        <!-- back to top start -->
+        <back-to-top class="scroll-top" bottom="60px">
+            <i class="ion-android-arrow-up"></i>
+        </back-to-top>
+        <!-- back to top end -->  </div>
 </template>
 
 <script>
-import Header from '@/components/header/Header.vue'
+import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
+import OffCanvasMobileMenu from '@/components/OffCanvasMobileMenu.vue'
 export default {
   components: {
     Header,
-    Footer
+    Footer,
+    OffCanvasMobileMenu
   }
 }
 </script>
