@@ -57,10 +57,10 @@
                               >
                             </li>
                             <li>
-                              <router-link to="/home-two">Départs</router-link>
+                              <router-link to="/">Départs</router-link>
                             </li>
                             <li>
-                              <router-link to="/home-three"
+                              <router-link to="/"
                                 >Arrivées</router-link
                               >
                             </li>
@@ -70,23 +70,23 @@
                         <li
                           class="has-children has-children--multilevel-submenu"
                         >
-                          <router-link to="/service">VOTRE VOYAGE</router-link>
+                          <router-link to="/">VOTRE VOYAGE</router-link>
                           <ul class="submenu">
                             <li>
                               <router-link to="/service">Documents</router-link>
                             </li>
                             <li>
-                              <router-link to="/service-details"
+                              <router-link to="/"
                                 >Bagages</router-link
                               >
                             </li>
                             <li>
-                              <router-link to="/service-details-right"
+                              <router-link to="/"
                                 >Assistance</router-link
                               >
                             </li>
                             <li>
-                              <router-link to="/service-details-right"
+                              <router-link to="/"
                                 >Douanes et controles</router-link
                               >
                             </li>
@@ -95,20 +95,20 @@
                         <li
                           class="has-children has-children--multilevel-submenu"
                         >
-                          <router-link to="/service">SERVICES</router-link>
+                          <router-link to="/">SERVICES</router-link>
                           <ul class="submenu">
                             <li>
-                              <router-link to="/service"
+                              <router-link to="/"
                                 >Boutiques et Duty free</router-link
                               >
                             </li>
                             <li>
-                              <router-link to="/service-details"
+                              <router-link to="/"
                                 >Bagages perdus</router-link
                               >
                             </li>
                             <li>
-                              <router-link to="/service-details-right"
+                              <router-link to="/"
                                 >Service bagages et voitures</router-link
                               >
                             </li>
@@ -125,10 +125,10 @@
                               >
                             </li>
                             <li>
-                              <router-link to="/home-two">Départs</router-link>
+                              <router-link to="/">Départs</router-link>
                             </li>
                             <li>
-                              <router-link to="/home-three"
+                              <router-link to="/"
                                 >Arrivées</router-link
                               >
                             </li>
@@ -138,23 +138,23 @@
                         <li
                           class="has-children has-children--multilevel-submenu"
                         >
-                          <router-link to="/service">VOTRE VOYAGE</router-link>
+                          <router-link to="/">VOTRE VOYAGE</router-link>
                           <ul class="submenu">
                             <li>
-                              <router-link to="/service">Documents</router-link>
+                              <router-link to="/">Documents</router-link>
                             </li>
                             <li>
-                              <router-link to="/service-details"
+                              <router-link to="/"
                                 >Bagages</router-link
                               >
                             </li>
                             <li>
-                              <router-link to="/service-details-right"
+                              <router-link to="/"
                                 >Assistance</router-link
                               >
                             </li>
                             <li>
-                              <router-link to="/service-details-right"
+                              <router-link to="/"
                                 >Douanes et controles</router-link
                               >
                             </li>
@@ -163,20 +163,20 @@
                         <li
                           class="has-children has-children--multilevel-submenu"
                         >
-                          <router-link to="/service">SERVICES</router-link>
+                          <router-link to="/">SERVICES</router-link>
                           <ul class="submenu">
                             <li>
-                              <router-link to="/service"
+                              <router-link to="/"
                                 >Boutiques et Duty free</router-link
                               >
                             </li>
                             <li>
-                              <router-link to="/service-details"
+                              <router-link to="/"
                                 >Bagages perdus</router-link
                               >
                             </li>
                             <li>
-                              <router-link to="/service-details-right"
+                              <router-link to="/"
                                 >Service bagages et voitures</router-link
                               >
                             </li>
